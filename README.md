@@ -1,4 +1,4 @@
-Playing with Node, Cloud9, Yammer, CoffeeScript
+Really just an excuse to play with Node, Cloud9, Yammer, CoffeeScript etc
 ====================================
 
 Doing all these things at the same time for the first time
