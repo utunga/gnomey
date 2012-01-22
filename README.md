@@ -1,8 +1,5 @@
-Example using CoffeeScript on Cloud9
+Playing with Node, Cloud9, Yammer, CoffeeScript
 ====================================
 
-Before you can run it CoffeeScript has to be installed:
-
-    npm install coffee-script
-    
-Then run `server.js` from the run menu.
+Doing all these things at the same time for the first time
+(this won't end well ;-)
