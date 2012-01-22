@@ -10,4 +10,4 @@ Actually in the end CoffeeScript and Cloud9 were both deemed 'cool but not neede
 =====
 
 To get started you need to get an access token for your yammer server.
-(See ./lib/config.js for more details on this.)
+(See config.js for more details...)

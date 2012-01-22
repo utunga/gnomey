@@ -1,5 +1,5 @@
 var twss = require('twss');
-var config = require('./lib/config.js');
+var config = require('./config.js');
 twss.threshold = config.twss.threshold; // pretty high, i think
     
 console.log("write some text:")

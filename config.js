@@ -3,8 +3,11 @@
  config.yammer = {}
  config.twss = {}
  config.yammer.access_token_dummy = 'config.js needs editing'
- config.yammer.access_token = config.yammer.access_token_dummy; //replace this with something like '9p69w098345098LtOeAQvyA'
- config.twss.threshold = 0.9997; //even though this seems high its not all that high
+ config.twss.threshold = 0.9992; //even though this seems high its not all that high
+
+ // replace the next line with something like..
+ //  config.yammer.access_token = '1234p345098LtOeAQvyA' //(no this is not a real token ;-)
+ config.yammer.access_token = config.yammer.access_token_dummy;
 
 // steps to get a yammer access_token
 // 1 register an app (https://www.yammer.com/client_applications)
@@ -15,3 +18,4 @@
 //   paste Consumer Secret into Client Secret
 //   (stop to admire the naming confusion.. ignore the other two fields)
 // 4 follow steps to get verifier then come back here and paste in the access_token above
+// 5. start service with node start.js
