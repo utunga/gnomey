@@ -1,0 +1,33 @@
+{
+  "name": "enspiral-gnome-server",
+  "preferGlobal": "false",
+  "version": "0.1.0",
+  "author": "Miles Thompson <utunga@gmail.com>",
+  "description": "some stupidity involving yammer and the thats what she said package",
+  "contributors": [
+    {
+    }
+  ],
+
+  "scripts": {
+    "start": "node start.js"
+  },
+  "main": "./lib/twss_server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://utunga@github.com/utunga/gnomey.git"
+  },
+  "keywords": [
+    "yammer",
+    "bayes",
+    "twss"
+  ],
+  "dependencies" : {
+    "request" : "2.9.100",
+    "twss" : "0.1.5"
+  },
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.4"
+  }
+}
