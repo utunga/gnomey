@@ -4,6 +4,7 @@
  config.twss = {}
  config.yammer.access_token_dummy = 'config.js needs editing'
  config.twss.threshold = 0.9992; //even though this seems high its not all that high
+ config.text_length_threshold = 'My gut feel is it would be a hard sell to make and that they will have a fairly tight budget'.length
 
  // replace the next line with something like..
  //  config.yammer.access_token = '1234p345098LtOeAQvyA' //(no this is not a real token ;-)
